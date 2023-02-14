@@ -9,6 +9,9 @@ body {
 body .fotos {
   width: 600px;
 }
+body audio {
+  margin: auto;
+}
 
 #card {
   position: absolute;
@@ -242,9 +245,6 @@ body .fotos {
     left: 35%;
     margin-left: -230px;
     z-index: 1;
-  }
-  body {
-    overflow-x: hidden;
   }
 }
 

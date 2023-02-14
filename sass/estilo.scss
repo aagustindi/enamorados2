@@ -11,6 +11,9 @@ body {
     .fotos{
         width: 600px;
     }
+    audio{
+        margin: auto;
+    }
 }
 
 #card {
@@ -295,7 +298,6 @@ body {
         margin-left: -230px;
         z-index: 1;
     }
-    body{
-        overflow-x: hidden;
-    }
+
+    
 }
