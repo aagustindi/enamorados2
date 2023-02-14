@@ -2,6 +2,12 @@
 body {
   background-color: #ddd;
   font-family: "Poiret One", Segoe UI Light, cursive;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+}
+body .fotos {
+  width: 600px;
 }
 
 #card {
@@ -9,8 +15,9 @@ body {
   top: 100px;
   width: 460px;
   height: 260px;
-  left: 50%;
+  left: 70%;
   margin-left: -230px;
+  z-index: 1;
 }
 
 #card .heart {
@@ -224,6 +231,20 @@ body {
   }
   to {
     transform: rotateX(180deg);
+  }
+}
+@media (max-width: 600px) {
+  #card {
+    position: absolute;
+    top: 50px;
+    width: 460px;
+    height: 260px;
+    left: 35%;
+    margin-left: -230px;
+    z-index: 1;
+  }
+  body {
+    overflow-x: hidden;
   }
 }
 
